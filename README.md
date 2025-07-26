@@ -57,37 +57,20 @@ Additionally, speech recognition enables **voice-to-text typing**, making the ke
 git clone https://github.com/your-username/virtual-keyboard-hand-gesture.git
 cd virtual-keyboard-hand-gesture
 2️⃣ Create and activate a virtual environment
-bash
-Copy
-Edit
-python -m venv venv
-Windows:
 
-bash
-Copy
-Edit
+python -m venv venv
+windows
 venv\Scripts\activate
 Linux/Mac:
-
-bash
-Copy
-Edit
 source venv/bin/activate
 3️⃣ Install the required dependencies
-bash
-Copy
-Edit
+
 pip install -r requirements.txt
 If you don't have a requirements.txt, manually install:
 
-bash
-Copy
-Edit
 pip install opencv-python mediapipe SpeechRecognition googletrans==4.0.0-rc1 pyautogui pywin32
 4️⃣ Run the Virtual Keyboard
-bash
-Copy
-Edit
+
 python keybord.py
 🔗 References
 IEEE Fingertip Detection for Virtual Keyboard
